@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book Consultation</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <div id="loader">
+
+    <img src="images/logo.png" alt="INTRA Logo">
+
+    <h1>INTRA</h1>
+
+    <p>Designing Spaces, Creating Memories</p>
+
+</div>
+
+<nav>
+<div class="menu-overlay"></div>
+    <div class="logo">
+
+        <img src="images/logo.png">
+
+        <span>INTRA</span>
+
+    </div>
+
+    <div class="nav-links">
+
+       <a href="index.html">Home</a> 
+
+            <a href="index.html#services">Portfolio</a>
+
+            <a href="index.html#all-services">Services</a>
+
+           
+
+    </div>
+  <div class="menu-toggle">
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+
+</nav>
+
+<section class="consult-hero" reveal>
+
+    <div class="consult-left">
+
+        <p class="small-title">
+            BOOK YOUR DREAM SPACE
+        </p>
+
+        <h1>
+
+            Let's Design 
+
+            <span>Your Dream Space</span>
+
+        </h1>
+
+        <p class="hero-description">
+
+            Whether you're renovating your home,
+
+            designing a new office,
+
+            or transforming your café,
+
+            our expert designers are ready
+
+            to bring your vision to life.
+
+        </p>
+
+        <div class="hero-features">
+
+            <div>
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                Free Consultation
+
+            </div>
+
+            <div>
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                3D Design Preview
+
+            </div>
+
+            <div>
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                Transparent Pricing
+
+            </div>
+
+            <div>
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                Dedicated Designer
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="consult-right">
+
+        <img src="images/living.jpeg">
+
+    </div>
+
+</section>
+<section class="consult-form-section" reveal>
+    <div class="consult-card">
+
+    <div class="consult-info">
+
+        <p class="small-title">
+            WHY CHOOSE US
+        </p>
+
+        <h2>Why Clients Trust INTRA</h2>
+
+        <div class="info-stats">
+
+            <div class="stat-box">
+                <h3>500+</h3>
+                <p>Projects</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>50+</h3>
+                <p>Happy Clients</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>10+</h3>
+                <p>Designers</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>5+</h3>
+                <p>Cities</p>
+            </div>
+
+        </div>
+
+        <ul class="benefits">
+
+            <li><i class="fa-solid fa-check"></i> Free Consultation</li>
+
+            <li><i class="fa-solid fa-check"></i> Premium Materials</li>
+
+            <li><i class="fa-solid fa-check"></i> 3D Visualization</li>
+
+            <li><i class="fa-solid fa-check"></i> Transparent Pricing</li>
+
+            <li><i class="fa-solid fa-check"></i> Dedicated Designer</li>
+
+        </ul>
+
+    </div>
+
+    <div class="consult-form">
+
+    <div id="formBox">
+<form id="consultForm">
+        <div class="form-header">
+
+            <p>LET'S GET STARTED</p>
+
+            <h2>Book Your Consultation</h2>
+
+            <span></span>
+
+        </div>
+
+            <div class="input-group">
+
+                <label>Full Name</label>
+
+                <input type="text" name="name" placeholder="Enter your name">
+
+            </div>
+
+            <div class="input-group">
+
+                <label>Email Address</label>
+
+                <input type="email" name="email" placeholder="Enter your email">
+
+            </div>
+
+            <div class="input-group">
+
+                <label>Phone Number</label>
+
+                <input type="tel" name="phone" placeholder="+91">
+
+            </div>
+
+            <div class="double-input">
+
+                <div class="input-group">
+
+                    <label>Property Type</label>
+
+                    <select name="property">
+
+                        <option>Apartment</option>
+
+                        <option>Villa</option>
+
+                        <option>Independent House</option>
+
+                        <option>Office</option>
+
+                        <option>Cafe</option>
+
+                    </select>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Budget</label>
+
+                    <select name="budget">
+<option>Below ₹2 Lakh</option>
+<option>₹2 – ₹5 Lakh</option>
+<option>₹5 – ₹10 Lakh</option>
+<option>Above ₹10 Lakh</option>
+                       
+                    </select>
+
+                </div>
+
+            </div>
+
+            <div class="input-group">
+
+                <label>Project Details</label>
+
+                <textarea name="message" placeholder="Tell us about your dream project..."></textarea>
+
+            </div>
+
+            <button type="submit" class="submit-btn">
+
+                Book free Consultation >
+
+            </button>
+
+        
+</form>
+
+    </div>
+<div id="successBox" class="success-box">
+    <i class="fa-solid fa-circle-check"></i>
+    <h2>Thank You!</h2>
+    <p>
+        Your consultation request has been received.
+
+        Our design experts will contact you within 24 hours.
+    </p>
+    <a href="index.html" class="home-btn">
+        Back to Home 
+    </a>
+
+</div>
+    </div>
+    </div>
+    
+
+</section>
+<footer id="contact">
+
+    <div class="footer-container">
+
+        <div class="footer-about">
+
+            <img src="images/logo.png" class="footer-logo">
+
+            <h3>INTRA</h3>
+
+            <p>
+                Transforming spaces into timeless interiors with
+                creativity, elegance, and functionality.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h4>Quick Links</h4>
+
+         <a href="index.html">Home</a> 
+
+            <a href="index.html#services">Portfolio</a>
+
+            <a href="index.html#all-services">Services</a>
+
+            <a href="consultation.html">Consultation</a>
+        
+        </div>
+
+        <div class="footer-services">
+
+            <h4>Our Services</h4>
+
+            <p>Kitchen Design</p>
+
+            <p>Bedroom Design</p>
+
+            <p>Living Room</p>
+
+            <p>Office Interiors</p>
+
+            <p>Café Interiors</p>
+
+            <p>Rstaurant Design</p>
+
+            <p>Hotelroom Design</p>
+            
+            <p>Office Design</p>
+
+        </div>
+
+        <div class="footer-contact">
+
+            <h4>Contact</h4>
+
+            <p><i class="fa-solid fa-location-dot"></i> Plot no. 773, Maharishi College Rd, Saheed Nagar, Bhubaneswar, Odisha 751007</p>
+
+            <p><i class="fa-solid fa-phone"></i> +91 93377 85473</p>
+
+            <p><i class="fa-solid fa-envelope"></i> info@intra.in</p>
+
+        </div>
+        <div class="footer-social">
+
+    <a href="#">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a href="#">
+        <i class="fa-brands fa-facebook-f"></i>
+    </a>
+
+    <a href="#">
+        <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+
+    <a href="#">
+        <i class="fa-brands fa-pinterest-p"></i>
+    </a>
+
+</div>
+
+    </div>
+
+    <hr>
+
+    <div class="copyright">
+
+        © 2026 INTRA INTERIORS.
+         All Rights Reserved.
+
+    </div>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+<a href="https://wa.me/919337785473"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Chat on WhatsApp">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+</body>
+</html>
